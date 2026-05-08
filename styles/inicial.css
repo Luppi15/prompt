@@ -1,0 +1,145 @@
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    justify-content: center;
+    align-items: center;
+}
+
+.up {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.down {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5em;
+}
+
+.card1 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 90px 5px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+}
+
+.catraca {
+    margin-top: 1.5em;
+    margin-left: 1.2em;
+    height: 40%;
+    background-image: url(/imagens/catraca/catraca.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card2 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 90px 5px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+}
+
+.imagem {
+    margin-top: 1.5em;
+    margin-left: -0.9em;
+    height: 65%;
+    background-image: url(/imagens/imagem/imagem.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card3 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 5px 90px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+}
+
+.engrenagem {
+    margin-top: -1em;
+    margin-left: 1.2em;
+    height: 45%;
+    background-image: url(/imagens/engrenagem/engrenagem.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card4 {
+    width: 90px;
+    height: 90px;
+    outline: none;
+    border: none;
+    background: white;
+    border-radius: 5px 5px 90px 5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    transition: 0.2s ease-in-out;
+}
+
+.olhar-digital {
+    margin-top: -1em;
+    margin-left: -1.2em;
+    height: 38%;
+    background-image: url(/imagens/olhar/olhar-digital.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card1:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #00d36c;
+}
+
+.card1:hover .catraca {
+    background-image: url(/imagens/catraca/catraca-branco.png);
+}
+
+.card2:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #0657a2;
+}
+
+.card2:hover .imagem {
+    background-image: url(/imagens/imagem/imagem-branco.png);
+}
+
+.card3:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: black;
+}
+
+.card3:hover .engrenagem {
+    background-image: url(/imagens/engrenagem/engrenagem-branco.png);
+}
+
+.card4:hover {
+    cursor: pointer;
+    scale: 1.1;
+    background-color: #36ca4f;
+}
+
