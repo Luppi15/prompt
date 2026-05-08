@@ -35,7 +35,7 @@
     margin-top: 1.5em;
     margin-left: 1.2em;
     height: 40%;
-    background-image: url(/imagens/catraca/catraca.png);
+    background-image: url(imagens/catraca/catraca.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -57,7 +57,7 @@
     margin-top: 1.5em;
     margin-left: -0.9em;
     height: 65%;
-    background-image: url(/imagens/imagem/imagem.png);
+    background-image: url(imagens/imagem/imagem.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@
     margin-top: -1em;
     margin-left: 1.2em;
     height: 45%;
-    background-image: url(/imagens/engrenagem/engrenagem.png);
+    background-image: url(imagens/engrenagem/engrenagem.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -101,7 +101,7 @@
     margin-top: -1em;
     margin-left: -1.2em;
     height: 38%;
-    background-image: url(/imagens/olhar/olhar-digital.png);
+    background-image: url(imagens/olhar/olhar-digital.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -114,7 +114,7 @@
 }
 
 .card1:hover .catraca {
-    background-image: url(/imagens/catraca/catraca-branco.png);
+    background-image: url(imagens/catraca/catraca-branco.png);
 }
 
 .card2:hover {
@@ -124,7 +124,7 @@
 }
 
 .card2:hover .imagem {
-    background-image: url(/imagens/imagem/imagem-branco.png);
+    background-image: url(imagens/imagem/imagem-branco.png);
 }
 
 .card3:hover {
@@ -134,7 +134,7 @@
 }
 
 .card3:hover .engrenagem {
-    background-image: url(/imagens/engrenagem/engrenagem-branco.png);
+    background-image: url(imagens/engrenagem/engrenagem-branco.png);
 }
 
 .card4:hover {
