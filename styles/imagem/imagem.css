@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,900&display=swap');
+
+div {
+    color: #0657a2;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    text-transform: uppercase;
+}
+
+
+.tooltip {
+    position: absolute;
+    height: 160px;
+    width: 130px;
+    background-color: #0657a2;
+    left: 50%;
+    top: 55%;
+    translate: -50% -50%;
+    border-radius: 8%;
+    box-shadow: #c7c7c7 -2px 2px 4px;
+}
+
+
